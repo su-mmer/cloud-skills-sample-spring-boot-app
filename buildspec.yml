@@ -20,7 +20,7 @@ artifacts:
     - build/libs/*.jar
     - scripts/*.sh
     - appspec.yml
-    discard-paths: yes
+  discard-paths: yes
 
 cache:
   paths:
