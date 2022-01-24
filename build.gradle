@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-jar {
+jar { // plain jar 비활성화
 	enabled = false
 }
 
