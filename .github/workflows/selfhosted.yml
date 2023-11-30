@@ -25,4 +25,6 @@ jobs:
     #     distribution: 'temurin'
 
     - name: check
-      uses: ls
+      run: |
+        pwd 
+        ls
